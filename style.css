@@ -221,7 +221,7 @@ p {
 }
 
 .middleSection {
-    height: 1156px;
+    height: 1100px;
     background: white;
 }
 
@@ -250,11 +250,15 @@ p {
     margin-left: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-left: 15px;
+    
 }
 
 .lights h2 {
     color: white;
+    margin-bottom: 60px;
+    
 }
 
 .lights h1 {
@@ -265,9 +269,57 @@ p {
     
 }
 
+.interested {
+    width: 345px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+
 .interested h6 {
         color: #1fd6d5;
         font-size: 18px;
         line-height: 26px;
         font-family: 'Armata';
+}
+
+.parallaxWind {
+    background: linear-gradient(
+    rgba(0,0,0, 0.5),
+    rgba(0,0,0, 0.5)),
+    url("http://future.moworks.com.au/images/windcols-w600.jpg");
+    height: 1537px; 
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.overlay p {
+    color: white;
+}
+
+.overlayWind h5 {
+    margin-top: 160px;
+    margin-bottom: 20px;
+
+}
+
+
+.overlayWind h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.overlayWind p {
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 120px;
 }
